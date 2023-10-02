@@ -5,7 +5,7 @@
 ## About Me
 
 I am a fourth-year student at SETU, Carlow, with a strong passion for Machine Learning. My interests in Machine Learning include Object Identification, Image Processing, and Chatbots. I am at the beginning of my Machine Learning journey but enthusiastic about learning and completing projects to further my skills and knowledge.
-*If you wish to find out more about my experience and skills:[LinkedIn Profile](https://www.linkedin.com/in/shane-kennedy-8b6a74251/)*
+*If you wish to find out more about my experience and skills, view my LinkedIn Profile [here.](https://www.linkedin.com/in/shane-kennedy-8b6a74251/)*
 
 ## Experience
 Worked six monthes internship in the Enterprise Data department of Unum Ireland. Here I got to develop skills in a broad range of Data Science skills including Data Cleaning, Data Analysis and Data Pipelines. Projects I worked on during that time was the creation of a Data Pipeline to automate the creation of reference tables for one of their Data Warehouses and an Intern led project which created a Data Analysis Dashboard from live data from one of Unum's Enterprise application.
@@ -43,7 +43,7 @@ Worked six monthes internship in the Enterprise Data department of Unum Ireland.
 
 ## Current Projects
 
-### Project: Automated Data Scraping from Weather Website and storage to a local database
+### [Project: Automated Data Scraping from Weather Website and storage to a local database](https://github.com/SHAKyMLRepo/Project1.git)*
 
 #### Introduction
 
@@ -71,7 +71,7 @@ In a world increasingly reliant on data-driven decision-making, access to accura
 
 - **Data Analysis**: With data stored locally, I intend to use this data in future projects.
 
-### Project: Webpage with Weather Chatbot using Local Database
+### [Project: Webpage with Weather Chatbot using Local Database](https://github.com/SHAKyMLRepo/Project2.git)* 
 
 #### Introduction
 
@@ -105,7 +105,7 @@ In an era where technology is becoming increasingly integrated into our daily li
 
 By creating a chatbot with access to a local weather database, this project enhances the accessibility and usability of weather information for users in a conversational manner.
 
-### Project: House Price Predictor using Linear Regression
+### [Project: House Price Predictor using Linear Regression](https://github.com/SHAKyMLRepo/Project3.git)* 
 
 #### Introduction
 
