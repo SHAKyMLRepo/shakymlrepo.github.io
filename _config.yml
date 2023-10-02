@@ -1,1 +1,3 @@
-theme: minima
+title: ML Portfolio
+#show_downloads: true
+theme: jekyll-thee-minimal
