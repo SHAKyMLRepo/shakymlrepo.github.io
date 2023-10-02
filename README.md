@@ -7,7 +7,8 @@
 I am a fourth-year student at SETU, Carlow, with a strong passion for Machine Learning. My interests in Machine Learning include Object Identification, Image Processing, and Chatbots. I am at the beginning of my Machine Learning journey but enthusiastic about learning and completing projects to further my skills and knowledge.
 
 ## Experience
-Worked six monthes internship in the Enterprise Data department of Unum Ireland. Here I got to develop skills in a broad range of Data Science skills including Data Cleaning, Data Analysis and Data Pipelines. Projects I worked on during that time was the creation of a Data Pipeline to automate the creation of reference tables for one of their Data Warehouses and an Intern led project which created a Data Analysis Dashboard from live data from one of Unum's Enterprise application.
+Worked for six months as an Intern in the Enterprise Data department of Unum Ireland. Here I got to develop skills in a broad range of Data Science skills including Data Cleaning, Data Analysis and Data Pipelines. Some of the Projects I worked on during that time were the creation of a Data Pipeline to automate the building of reference tables for one of their Data Warehouses and an Intern led project which created a Data Analysis Dashboard of live data from one of Unum's Enterprise application.
+
 ## Skills
 
 #### Infrastructures
@@ -70,6 +71,12 @@ In a world increasingly reliant on data-driven decision-making, access to accura
 
 - **Data Analysis**: With data stored locally, I intend to use this data in future projects.
 
+**Ethics and Regulations**:
+
+- **Data Privacy and GDPR Compliance**: The data from this project should have no PPI included so will not have GDPR compliance implications.
+
+- **Website Terms of Use**: As we are web scraping from commercial websites, we must ensure we comply with their terms of use. This project is just for personal development of Data Scraping and Data Cleaning skills and will not be used for commercial activity due to these terms. The project will transparently state the source and owner of the data with clear attribution.
+
 ### [Project: Webpage with Weather Chatbot using Local Database](https://github.com/SHAKyMLRepo/Project2.git)* 
 
 #### Introduction
@@ -102,6 +109,12 @@ In an era where technology is becoming increasingly integrated into our daily li
 
 - **Integration Potential**: The chatbot can be further expanded and integrated into other platforms or applications to provide weather information seamlessly.
 
+**Ethics and Regulations**:
+
+- **Data Privacy and GDPR Compliance**: The data from this project should have no PPI included so will not have GDPR compliance implications.
+
+- **Data Attribution and Terms of Use**: The project will transparently state the original source and owner of the data with clear attribution and will not be used in any commercial context.
+- 
 By creating a chatbot with access to a local weather database, this project enhances the accessibility and usability of weather information for users in a conversational manner.
 
 ### [Project: House Price Predictor using Linear Regression](https://github.com/SHAKyMLRepo/Project3.git)* 
@@ -132,5 +145,10 @@ The real estate market is a dynamic and complex environment, and predicting hous
 
 - **Real-World Application**: The project demonstrates the application of machine learning in a real-world scenario and highlights the potential for predictive modeling in the real estate industry.
 
+**Ethics and Regulations**:
+
+- **Data Privacy and GDPR Compliance**: The data from this project should have no PPI included so will not have GDPR compliance implications.
+
+- **Data Attribution and Terms of Use**: The project will use a publically available dataset from Kaggle and will give full attribution of the data set and comply with any terms of use.
 
 *Feel free to reach out through LinkedIn if you'd like more details or have any questions about my projects or skills!*
