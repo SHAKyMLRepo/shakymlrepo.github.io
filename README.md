@@ -114,9 +114,7 @@ In an era where technology is becoming increasingly integrated into our daily li
 - **Data Privacy and GDPR Compliance**: The data from this project should have no PPI included so will not have GDPR compliance implications.
 
 - **Data Attribution and Terms of Use**: The project will transparently state the original source and owner of the data with clear attribution and will not be used in any commercial context.
-- 
-By creating a chatbot with access to a local weather database, this project enhances the accessibility and usability of weather information for users in a conversational manner.
-
+  
 ### [Project: House Price Predictor using Linear Regression](https://github.com/SHAKyMLRepo/Project3.git)* 
 
 #### Introduction
