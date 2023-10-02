@@ -1,4 +1,4 @@
-# Shane Kennedy's Machine Learning Portfolio
+# My Data Science / Machine Learning Portfolio
 
 ![ML Banner](Images/mlbanner.jpg)
 
