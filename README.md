@@ -134,6 +134,4 @@ The real estate market is a dynamic and complex environment, and predicting hous
 - **Real-World Application**: The project demonstrates the application of machine learning in a real-world scenario and highlights the potential for predictive modeling in the real estate industry.
 
 
-*GitHub Repository: [Link to GitHub Repository](https://github.com/SHAKyMLRepo/MLPortfolio/)*
-
-*Feel free to reach out if you'd like more details or have any questions about my projects or skills!*
+*Feel free to reach out through LinkedIn if you'd like more details or have any questions about my projects or skills!*
