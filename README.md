@@ -43,7 +43,44 @@ Worked for six months as an Intern in the Enterprise Data department of Unum Ire
 
 ## Current Projects
 
-### [Project: Automated Data Scraping from Weather Website and storage to a local database](https://github.com/SHAKyMLRepo/Project1.git)*
+### [Project: House Price Predictor using Linear Regression](https://github.com/SHAKyMLRepo/Project1-HousePricePrediction.git)* 
+
+#### Introduction
+
+The real estate market is a dynamic and complex environment, and predicting house prices accurately is a valuable tool for homeowners, buyers, and real estate professionals. This project aims to explore the links between property prices, population and population density. It aims to try and establish the degree of correlation between such factors and determine if it is possible to estimate how house prices will behave into the future based on factors such as land area, population and population density.
+
+#### Project Overview
+
+**Objective**: The primary objective of this project is to create a House Price Prediction algorithms that employs Linear Regression to estimate the selling price of houses based on the available land space in a region and its population density.
+
+**Key Components**:
+
+1. **Data Sourcing**: In this project, I sourced publically available datasets with the necessary information required to begin to develop the inputs for this project. This proved to be a challenging task as while there is plenty of high quality data on Irish Population statistics, due to privacy concerns many of the publically avaiable datasets regarding House Prices cannont contain any PII so have many of the fields you might wish for to answer these questions removed or lowered in fidelity to protect privacy. In the end, a number of seperate datasets were required to collate the fields necessary for the project.
+
+2. **Data Preprocessing**: As this project could not use a prepared dataset as none was available with the information required regarding the Irish market, the Data Preprocessing stage was one of the most involved stage of this project. This involved tasks such as handling missing values, dealing with outliers, and removing unneeded data. As multiple datasets had to be combined it also required datasets formats to be synchronised before combination. The goal was to prepare the data for model development by ensuring it was clean and structured.
+   
+3. **Model Development**: Implement a Linear Regression model using the machine learning library Scikit-Learn. Train the model on the prepared dataset to learn the relationships between the selected factors and house prices.
+
+4. **Model Evaluation**: Evaluate the performance of the Linear Regression model a subset of the data which will be held back during training.
+
+5. **User Interface**: Create a simple text interface to allow Users to query the model.
+
+
+**Benefits**:
+
+- **Accurate Predictions**: The project offers a reliable tool for estimating house prices based on various factors and explores the weight by which different factors effect house prices into the future. 
+
+- **Data-Driven Insights**: Users can gain insights into the factors influencing house prices, helping them make informed choices.
+
+- **Real-World Application**: The project demonstrates the application of machine learning in a real-world scenario and highlights the potential for predictive modeling in the real estate industry based on population dynamics.
+
+**Ethics and Regulations**:
+
+- **Data Privacy and GDPR Compliance**: The data from this project should have no PPI included so will not have GDPR compliance implications.
+
+- **Data Attribution and Terms of Use**: The project will use publically available datasets and will give full attribution of the data sets used  and comply with any terms of use.
+
+### [Project: Automated Data Scraping from Weather Website and storage to a local database](https://github.com/SHAKyMLRepo/Project2.git)*
 
 #### Introduction
 
@@ -77,7 +114,7 @@ In a world increasingly reliant on data-driven decision-making, access to accura
 
 - **Website Terms of Use**: As we are web scraping from commercial websites, we must ensure we comply with their terms of use. This project is just for personal development of Data Scraping and Data Cleaning skills and will not be used for commercial activity due to these terms. The project will transparently state the source and owner of the data with clear attribution.
 
-### [Project: Webpage with Weather Chatbot using Local Database](https://github.com/SHAKyMLRepo/Project2.git)* 
+### [Project: Webpage with Weather Chatbot using Local Database](https://github.com/SHAKyMLRepo/Project3.git)* 
 
 #### Introduction
 
@@ -114,39 +151,5 @@ In an era where technology is becoming increasingly integrated into our daily li
 - **Data Privacy and GDPR Compliance**: The data from this project should have no PPI included so will not have GDPR compliance implications.
 
 - **Data Attribution and Terms of Use**: The project will transparently state the original source and owner of the data with clear attribution and will not be used in any commercial context.
-  
-### [Project: House Price Predictor using Linear Regression](https://github.com/SHAKyMLRepo/Project3.git)* 
-
-#### Introduction
-
-The real estate market is a dynamic and complex environment, and predicting house prices accurately is a valuable tool for homeowners, buyers, and real estate professionals. This project aims to develop a machine learning model that can predict house prices based on various features and attributes, using the Linear Regression algorithm.
-
-#### Project Overview
-
-**Objective**: The primary objective of this project is to create a House Price Predictor application that employs Linear Regression to estimate the selling price of houses.
-
-**Key Components**:
-
-
-1. **Model Development**: Implement a Linear Regression model using the machine learning library Scikit-Learn. Train the model on the a Kaggle dataset to learn the relationships between the selected features and house prices.
-
-2. **Model Evaluation**: Evaluate the performance of the Linear Regression model a subset of the data which will be held back during training.
-
-3. **User Interface**: Create a simple text interface to allow Users to query the model.
-
-
-**Benefits**:
-
-- **Accurate Predictions**: The project offers a reliable tool for estimating house prices based on various factors, enabling informed decisions for buyers and sellers.
-
-- **Data-Driven Insights**: Users can gain insights into the factors influencing house prices, helping them make informed choices.
-
-- **Real-World Application**: The project demonstrates the application of machine learning in a real-world scenario and highlights the potential for predictive modeling in the real estate industry.
-
-**Ethics and Regulations**:
-
-- **Data Privacy and GDPR Compliance**: The data from this project should have no PPI included so will not have GDPR compliance implications.
-
-- **Data Attribution and Terms of Use**: The project will use a publically available dataset from Kaggle and will give full attribution of the data set and comply with any terms of use.
 
 *Feel free to reach out through LinkedIn if you'd like more details or have any questions about my projects or skills!*
