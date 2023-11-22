@@ -47,19 +47,19 @@ Worked for six months as an Intern in the Enterprise Data department of Unum Ire
 
 #### Introduction
 
-The real estate market is a dynamic and complex environment, and predicting house prices accurately is a valuable tool for homeowners, buyers, and real estate professionals. This project aims to explore the links between property prices, population and population density. It aims to try and establish the degree of correlation between such factors and determine if it is possible to estimate how house prices will behave into the future based on factors such as land area, population and population density.
+The real estate market is a dynamic and complex environment, and predicting house prices accurately is a valuable tool for homeowners, buyers, and real estate professionals. This project aims to explore the links between property prices, population and population density. It attempts to establish the degree of correlation between such factors and determine if it is possible to estimate how house prices will behave into the future based on factors such as land area, population and population density.
 
 #### Project Overview
 
-**Objective**: The primary objective of this project is to create a House Price Prediction algorithms that employs Linear Regression to estimate the selling price of houses based on the available land space in a region and its population density.
+**Objective**: The primary objective of this project is to create a House Price Prediction algorithm that employs Linear Regression to estimate the selling price of houses based on the available land space in a region and its population density.
 
 **Key Components**:
 
-1. **Data Sourcing**: In this project, I sourced publically available datasets with the necessary information required to begin to develop the inputs for this project. This proved to be a challenging task as while there is plenty of high quality data on Irish Population statistics, due to privacy concerns many of the publically avaiable datasets regarding House Prices cannont contain any PII so have many of the fields you might wish for to answer these questions removed or lowered in fidelity to protect privacy. In the end, a number of seperate datasets were required to collate the fields necessary for the project.
+1. **Data Sourcing**: In this project, I sourced publically available datasets with the necessary information required to begin to develop the inputs for this project. This proved to be a challenging task as while there is plenty of high quality data on Irish Population statistics, due to privacy concerns many of the publically avaiable datasets regarding House Prices cannont contain any PII so many of the fields you might wish to obtain to answer these questions are often removed or lowered in fidelity to protect privacy. In the end, a number of seperate datasets were required to collate the fields necessary for the project.
 
-2. **Data Preprocessing**: As this project could not use a prepared dataset as none was available with the information required regarding the Irish market, the Data Preprocessing stage was one of the most involved stage of this project. This involved tasks such as handling missing values, dealing with outliers, and removing unneeded data. As multiple datasets had to be combined it also required datasets formats to be synchronised before combination. The goal was to prepare the data for model development by ensuring it was clean and structured.
+2. **Data Preprocessing**: As this project could not use a prepared dataset as none was available with the information required regarding the Irish market, the Data Preprocessing stage was one of the most involved stages of this project. As multiple datasets had to be combined it required many datasets to be combined. Each dataset first required the handling missing values, dealing with outliers, and removing unneeded data. Formats then needed to be synchronised to enabled accurate joining. The goal was to prepare the data for model development by ensuring it was clean, structured and contained the necessary fields.
    
-3. **Model Development**: Implement a Linear Regression model using the machine learning library Scikit-Learn. Train the model on the prepared dataset to learn the relationships between the selected factors and house prices.
+3. **Model Development**: The machine learning library SKLearn was utilised in this project to implement the Linear Regression model. Due to the dataset contained categorical fields, a column transformer was used with OneHotEncoding to concert these fields to numerical values. The data was then split into training and test sets to enable model evaluation. The model was then trained on the prepared dataset to learn the relationships between the selected factors and house prices.
 
 4. **Model Evaluation**: Evaluate the performance of the Linear Regression model a subset of the data which will be held back during training.
 
@@ -80,76 +80,83 @@ The real estate market is a dynamic and complex environment, and predicting hous
 
 - **Data Attribution and Terms of Use**: The project will use publically available datasets and will give full attribution of the data sets used  and comply with any terms of use.
 
-### [Project: Automated Data Scraping from Weather Website and storage to a local database](https://github.com/SHAKyMLRepo/Project2.git)*
+If you wish to learn more about this project, click the title link to view its repository on GitHub. More detailed information can be found in the projects Readme.md file and you can view the project code to gain further insights.
+
+### [Project: Face Mask Detection using Convolutional Neural Network (CNN)](https://github.com/SHAKyMLRepo/Project2-Face-Mask-Detection-using-CNN.git)
 
 #### Introduction
 
-In a world increasingly reliant on data-driven decision-making, access to accurate and up-to-date weather information is crucial for various applications, from agriculture to logistics and personal planning. This project aims to hone my skills in data scraping data from a website. This data will be in an unstructured state so data cleaning and transformation skills will also be required. This process of will retrieve, clean and transform the data automatically and then store it in a local database for easy access and analysis.
+The rapid advancement of Computer Vision technology has opened many new uses cases in recent years and this project aims to leverage these new technology and explore their application in the solving of  real world problems. The goal is to develop a Convolutional Neural Network (CNN) capable of accurately identifying whether an individual in an image is wearing a face mask or not. This technology has direct applications in public spaces, healthcare facilities, and various sectors where adherence to mask-wearing guidelines is crucial.
 
 #### Project Overview
 
-**Objective**: The primary goal of this project is to automate the retrieval of weather data from a selected weather website and establish a local database to store this data efficiently.
+**Objective**: The primary objective of this project is to build a robust Face Mask Detection model using Convolutional Neural Network techniques. The model aims to analyze images and determine whether the person in the image is wearing a face mask.
 
 **Key Components**:
 
-1. **Web Scraping**: We will develop a web scraping script using the BeautiSoup library to extract the weather data (e.g., temperature, humidity, wind speed, and conditions) from the weather website. This script will run at specified intervals to keep the data up to date.
+1. **Data Collection**: This project utilizes a prepared dataset sourced from Kaggle, consisting of images containing individuals with and without face masks. The dataset was chosen for its comprehensiveness, diversity, and the availability of labeled data. While traditional data collection involved capturing real-world scenarios, lighting conditions, and backgrounds, using a curated Kaggle dataset streamlines the process and ensures access to a high-quality, labeled dataset.
 
-2. **Data Transformation**: Once the data is scraped, it will be transformed and structured into a format suitable for database storage. This step may involve data cleaning and formatting.
+2. **Data Preprocessing**: The dataset underwent exploratory data analysis and visualization to ensure suitability. A dedicated function was developed to iterate through images and reshape them to conform to the models imput layer requirements. The function then created a list of arrays contained an image and label into the form of a binary value  (0 for without mask, 1 for with mask). The dataset was then split into training, validation, and test sets for effective model evaluation.
 
-3. **Local Database**: We will set up a local database using SQLite to store the scraped weather data. The database schema will be designed to accommodate the specific data attributes.
+3. **Model Development**: The Keras library from Tensorflow was used for model developement by leveraging a pretrained model from that library and then using transfer learning to hone its parameters to the requirements of this task. This method saves on both training time and processing power required for model training. The model architecture was chosen to be as lightweight as possible to be capable of deployment to lower power devices with the aim of validating possible integrations to low resource devices such as CCTVs cameras. Training was conducted usings the prepared dataset over multiple epochs to achieve high accuracy in face mask detection.
 
-4. **Automation**: The entire process will be automated, with scheduled runs of the web scraping script to keep the database updated with the latest weather information.
+4. **Model Evaluation**: The trained model will be evaluated on a separate test dataset to assess its performance in terms of precision, recall, and overall accuracy.
 
-5. **Data Access**: Users will be able to access and query the local database for weather information.
+5. **User Interface or Deployment**: Depending on the project scope, a user-friendly interface may be developed to allow users to upload images for real-time face mask detection. Alternatively, the model can be deployed in applications for automated monitoring.
 
 **Benefits**:
 
-- **Data Availability**: Weather data will be readily available in a local database, reducing the need for real-time API calls to external sources.
+- **Public Health Safety**: The project directly contributes to public health safety by providing a tool to identify individuals not adhering to mask-wearing guidelines.
 
-- **Data Analysis**: With data stored locally, I intend to use this data in future projects.
+- **Automation in Monitoring**: The technology allows for automated monitoring in public spaces, reducing the need for manual intervention.
+
+- **Versatile Applications**: Beyond pandemic scenarios, the model can find applications in various settings where mask detection is relevant, such as security and healthcare.
 
 **Ethics and Regulations**:
 
-- **Data Privacy and GDPR Compliance**: The data from this project should have no PPI included so will not have GDPR compliance implications.
+- **Privacy Considerations**: The project emphasizes privacy by not collecting or storing personally identifiable information. The focus is solely on the presence or absence of face masks.
 
-- **Website Terms of Use**: As we are web scraping from commercial websites, we must ensure we comply with their terms of use. This project is just for personal development of Data Scraping and Data Cleaning skills and will not be used for commercial activity due to these terms. The project will transparently state the source and owner of the data with clear attribution.
+- **Algorithmic Fairness**: Efforts will be made to ensure that the model's predictions are fair and unbiased across different demographics.
 
-### [Project: Webpage with Weather Chatbot using Local Database](https://github.com/SHAKyMLRepo/Project3.git)* 
+If you wish to learn more about this project, click the title link to view its repository on GitHub. More detailed information can be found in the projects Readme.md file and you can view the project code to gain further insights.
+
+
+### [Project: Drug Prescription Prediction using Decision Trees](https://github.com/SHAKyMLRepo/Project3-DrugEffectivenessClassifier.git)
 
 #### Introduction
 
-In an era where technology is becoming increasingly integrated into our daily lives, having a chatbot that can provide weather forecasts in a conversational manner can be a valuable asset. This project aims to develop my skills with the creation of chatbots and builds off the project above. The chatbot will retrieve weather data from a local database and respond in a human-like text format.
+The Drug Prescription Prediction project utilizes Decision Trees to analyze a dataset of drug prescriptions. The primary goal is to leverage machine learning to predict the most suitable drug for a patient based on various health and personal characteristics such as gender, age, blood pressure, and other relevant factors. This project has significant implications for personalized medicine and optimizing drug prescription practices.
 
 #### Project Overview
 
-**Objective**: The main objective of this project is to develop a web-based chatbot that can provide weather forecasts based on user queries and data stored in a local database.
+**Objective**: The main objective of this project is to develop a Decision Tree model capable of accurately predicting the most appropriate drug for a patient based on their health and personal characteristics.
 
 **Key Components**:
 
-1. **User Interface**: A web page will be created to serve as the user interface. Users can input their queries about the weather through a prompt or chatbox.
+1. **Data Collection**:  The Data Collection process for this task was straightfoward as due to privacy concerns and regultations regarding the use of real patient information, a Datatset from Kaggle designed to train such models was utilised for this project.This dataset will be used to generate a proof of concept algorithm to show how such a model could be used in the future using real patient data to make accurate prescription predictions.
 
-2. **Chatbot Development**: The chatbot will be designed to understand natural language queries related to weather forecasts. It will utilize Natural Language Processing (NLP) techniques to process and interpret user inputs.
+2. **Data Preprocessing**: As the dataset came already cleaned and structured, the first tasks in the Preprocessing stage was in Data Exploration and Data Visualisation. In this step, the dataset structure was explored to confirm its suitablilty and Data Visualisations were prepared to gain insight into its contents and assess any problems. Once these steps were complete the dataset was checked for any missing values and the dependent and independent variables identified. The data was then transformed into a feature vector and a target value and these were then split two two sets each, a training set and a test set which will be used later for model evaluation.
+the
+3. **Model Development**: Implement a Decision Tree algorithm to learn the relationships between patient characteristics and drug prescriptions. Fine-tune the model to achieve optimal performance in predicting drug choices.
 
-3. **Local Database Integration**: Weather data, previously collected from a weather website and stored in a local database as part of a previous project, will be used by the chatbot to provide responses. The chatbot will query the database to retrieve weather forecasts for specific dates.
+4. **Model Evaluation**: Assess the Decision Tree model's performance on a separate test dataset. Evaluate metrics such as accuracy, precision, and recall to measure the model's effectiveness in drug prescription prediction.
 
-4. **Conversational Responses**: The chatbot will respond to user queries in a conversational and human-like manner. Responses will include weather conditions, temperatures, and any other relevant information for the specified date.
-
-5. **Web Interaction**: Users will interact with the chatbot through the web page, where they can ask questions like, "What will the weather be like on [specific date]?" The chatbot will generate informative and user-friendly responses.
+5. **User Interface or Deployment**: A simply text interface will be devloped which will serve as a proof of concept interface where drug predictions can be viewed based on a Users input parameters. This interface will show how such an algorithm could be used by real healthcare professionals to speed up their drug prescription procedures..
 
 **Benefits**:
 
-- **User-Friendly Access**: The web-based chatbot provides an easy and intuitive way for users to inquire about weather forecasts without needing to navigate complex interfaces or APIs.
+- **Personalized Medicine**: The project contributes to the advancement of personalized medicine by providing a tool for tailoring drug prescriptions based on individual patient characteristics.
 
-- **Conversational Experience**: Users can have a natural conversation with the chatbot, making the interaction more engaging and user-friendly.
+- **Efficient Healthcare Practices**: Healthcare professionals can benefit from more efficient and informed decision-making in drug prescription, leading to better patient outcomes.
 
-- **Data Utilization**: The project leverages previously collected weather data, making efficient use of data already available in the local database.
-
-- **Integration Potential**: The chatbot can be further expanded and integrated into other platforms or applications to provide weather information seamlessly.
+- **Data-Driven Healthcare**: The project showcases the potential of data-driven approaches in healthcare, optimizing the prescription process.
 
 **Ethics and Regulations**:
 
-- **Data Privacy and GDPR Compliance**: The data from this project should have no PPI included so will not have GDPR compliance implications.
+- **Patient Privacy**: The project prioritizes patient privacy by utilising mock data, protecting patient privacy and ensuring compliance with healthcare regulations.
 
-- **Data Attribution and Terms of Use**: The project will transparently state the original source and owner of the data with clear attribution and will not be used in any commercial context.
+- **Transparency in Model Decisions**: Efforts will be made to ensure transparency in the Decision Tree model's decisions, providing insights into the factors influencing drug prescription predictions.
+
+If you wish to learn more about this project, click the title link to view its repository on GitHub. More detailed information can be found in the projects Readme.md file and you can view the project code to gain further insights.
 
 *Feel free to reach out through LinkedIn if you'd like more details or have any questions about my projects or skills!*
