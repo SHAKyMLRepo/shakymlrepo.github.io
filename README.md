@@ -40,6 +40,17 @@ Worked for six months as an Intern in the Enterprise Data department of Unum Ire
 - Git and Version Control
 - Linux/Unix Systems
 - Web Development (HTML, CSS, Flask, Anvil, React)
+## Semester 2 Projects
+
+### [Project 1: Spam Detection using Naive Bayes Classifier](https://github.com/SHAKyMLRepo/Project-4-Spam-Detection-using-Naive-Bayes-Classifier)
+
+### [Project 2: Detection of Glasses in Images using Support Vector Machines](https://github.com/SHAKyMLRepo/Project-5-Glasses-Detection-using-Support-Vector-Machines)
+
+### [Project 3: Heart Disease Prediction using K Nearest Neighbours](https://github.com/SHAKyMLRepo/Project-6-Heart-Disease-Prediction-using-K-Nearest-Neighbours)
+
+### [Project 4: Spotify Recommendations using K Means Clustering](https://github.com/SHAKyMLRepo/Project-7-Spotify-Recommendations-using-KMeans-Clustering)
+
+### [Project 6: Animal Image Classification using CNNs](https://github.com/SHAKyMLRepo/Project-8-Animal-Image-Classification-using-CNNs)
 
 ## Current Projects
 
