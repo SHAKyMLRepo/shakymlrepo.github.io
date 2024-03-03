@@ -52,7 +52,7 @@ Worked for six months as an Intern in the Enterprise Data department of Unum Ire
 
 ### [Project 6: Animal Image Classification using CNNs](https://github.com/SHAKyMLRepo/Project-8-Animal-Image-Classification-using-CNNs)
 
-## Current Projects
+## Semester 1 Projects
 
 ### [Project: House Price Predictor using Linear Regression](https://github.com/SHAKyMLRepo/Project1-HousePricePrediction.git)* 
 
