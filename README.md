@@ -44,14 +44,21 @@ Worked for six months as an Intern in the Enterprise Data department of Unum Ire
 Below are links to recently completed projects, each exploring a different machine learning technique. Follow the links to learn more about these projects and the associated technique being employed.
 
 ### [Project 1: Spam Detection using Naive Bayes Classifier](https://github.com/SHAKyMLRepo/Project-4-Spam-Detection-using-Naive-Bayes-Classifier)
+#### Project Description
+The goal of this project was to create a Naive Bayes Classifier which could analysis a string of text representing a SMS message and return a prediction of whether that SMS message represents a Spam message or not. This project was adapted from a notebook by jakevdp which can be found at [this address](https://github.com/jakevdp/PythonDataScienceHandbook/blob/8a34a4f653bdbdc01415a94dc20d4e9b97438965/notebooks/05.05-Naive-Bayes.ipynb) and the repository includes a changelog to highlight how the code was adapted to suit this project's requirements.
 
 ### [Project 2: Detection of Glasses in Images using Support Vector Machines](https://github.com/SHAKyMLRepo/Project-5-Glasses-Detection-using-Support-Vector-Machines)
-
+#### Project Description
+The objective of this project was to develop a Support Vector Machine (SVM) model capable of detecting the presence of glasses in images. Leveraging techniques from machine learning and computer vision, the project aimed to train a classifier to accurately distinguish images containing individuals wearing either glasses, no glasses or those wearing sunglasses. The project was inspired by a notebook by jakevdp which can be found at the following link https://jakevdp.github.io/PythonDataScienceHandbook/05.07-support-vector-machines.html and the repository includes a changelog to highlight how the code was adapted to suit this project's requirements.
 ### [Project 3: Heart Disease Prediction using K Nearest Neighbours](https://github.com/SHAKyMLRepo/Project-6-Heart-Disease-Prediction-using-K-Nearest-Neighbours)
-
+#### Project Description
+In this project, the goal was to predict the presence or absence of heart disease in patients based on various health attributes. Utilizing the K Nearest Neighbours (KNN) algorithm, the project aimed to build a predictive model that could classify patients into two groups: those with heart disease and those without. The project was inspired by a notebook by MMdata  which can be found at the following link https://www.kaggle.com/code/mmdatainfo/k-nearest-neighbors and the repository includes a changelog to highlight how the code was adapted to suit this project's requirements.
 ### [Project 4: Spotify Recommendations using K Means Clustering](https://github.com/SHAKyMLRepo/Project-7-Spotify-Recommendations-using-KMeans-Clustering)
-
-### [Project 6: Animal Image Classification using CNNs](https://github.com/SHAKyMLRepo/Project-8-Animal-Image-Classification-using-CNNs)
+#### Project Description
+The objective of this project was to develop a music recommendation system leveraging K Means Clustering an unsupervised machine learning algorithm. By analyzing music attributes and user preferences, the project aimed to group songs into clusters based on similarities in musical features and then use these clusters to create song recommendations. The project was inspired by a notebook by jakevdp  which can be found at the following link https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.11-K-Means.ipynb and the repository includes a changelog to highlight how the code was adapted to suit this project's requirements.
+### [Project 5: Animal Image Classification using CNNs](https://github.com/SHAKyMLRepo/Project-8-Animal-Image-Classification-using-CNNs)
+#### Project Description
+In this project, the goal was to create a Convolutional Neural Network (CNN) model capable of classifying images of animals into different categories. Utilising deep learning techniques, the project aimed to train a CNN to recognize and classify animals based on visual features extracted from images. The project was inspired by a notebook by Ömer Faruk GÜRBÜZ which can be found at the following link https://www.kaggle.com/code/epiktroll/flowers-recognition-with-custom-cnn and the repository includes a changelog to highlight how the code was adapted to suit this project's requirements.
 
 ## Semester 1 Projects
 
