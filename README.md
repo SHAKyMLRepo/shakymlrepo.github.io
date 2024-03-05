@@ -40,6 +40,7 @@ Worked for six months as an Intern in the Enterprise Data department of Unum Ire
 - Git and Version Control
 - Linux/Unix Systems
 - Web Development (HTML, CSS, Flask, Anvil, React)
+  
 ## Semester 2 Projects
 Below are links to recently completed projects, each exploring a different machine learning technique. Follow the links to learn more about these projects and the associated technique being employed.
 
