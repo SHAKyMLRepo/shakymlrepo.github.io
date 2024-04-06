@@ -35,6 +35,13 @@ Worked for six months as an Intern in the Enterprise Data department of Unum Ire
 
 #### Machine Learning Algorithms
 - Linear Regression
+- Decision Trees
+- Random Forest and other Ensemble algorithms
+- Naive Bayes Classifiers
+- Support Vector Machines
+- K Means Clustering
+- K Nearest Neighbours
+- Neural Networks (ANN, CNN, LSTM)
 
 #### Other Technical Skills
 - Git and Version Control
