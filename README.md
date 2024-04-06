@@ -61,6 +61,14 @@ The objective of this project was to develop a music recommendation system lever
 #### Project Description
 In this project, the goal was to create a Convolutional Neural Network (CNN) model capable of classifying images of animals into different categories. Utilising deep learning techniques, the project aimed to train a CNN to recognize and classify animals based on visual features extracted from images. The project was inspired by a notebook by Ömer Faruk GÜRBÜZ which can be found at [this address](https://www.kaggle.com/code/epiktroll/flowers-recognition-with-custom-cnn) and the repository includes a changelog to highlight how the code was adapted to suit this project's requirements.
 
+### [Project 6: College Admissions Prediction using ANNs](https://github.com/SHAKyMLRepo/Project-9-College-Admissions-Prediction-with-ANN)
+#### Project Description
+This project's goal was to create an Artificial Neural Network (ANN) to predict the probability that a Graduate student will be admitted to Masters programmes based on a number of features around the student and the rating of the college. The project was inspired by a notebook by Mahima Shukla which can be found at [this address](https://www.kaggle.com/code/mahimashukla12/binary-classification-churn-problem) and the repository includes a changelog to highlight how the code was adapted to suit this project's requirements.
+
+### [Project 7: Forex Prediction using an LSTM](https://github.com/SHAKyMLRepo/Project-10-Forex-Prediction-using-LSTM)
+#### Project Description
+In this project, the goal was to create a Long Short Term Memory model capable of predicting the future fluctuations of the USD to Euro exchange rate. The project was inspired by a notebook by Siddharth Yadav which can be found at [this address](https://www.kaggle.com/code/thebrownviking20/intro-to-recurrent-neural-networks-lstm-gru) and the repository includes a changelog to highlight how the code was adapted to suit this project's requirements.
+
 ## Semester 1 Projects
 
 ### [Project: House Price Predictor using Linear Regression](https://github.com/SHAKyMLRepo/Project1-HousePricePrediction.git)* 
